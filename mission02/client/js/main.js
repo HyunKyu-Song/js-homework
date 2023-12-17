@@ -37,12 +37,10 @@ function setAudio(name) {
 
 function changePoster(e) {
 
+   if (e.target.tagName === 'UL') return;
+
    const target = e.target.closest('li');
    const index = target.dataset.index - 1;
-
-   if (!index) {
-      console.log('없음!!');
-   }
 
    for (let i = 0; i < navAll.length; i++) {
       navAll[i].classList.remove('is-active');
@@ -57,4 +55,4 @@ function changePoster(e) {
 }
 
 
-nav.addEventListener('click', function (e) { changePoster(e) });
+nav.addEventListener('click', changePoster);
