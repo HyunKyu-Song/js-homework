@@ -11,9 +11,6 @@ const navAll = document.querySelectorAll('.nav li');
 const body = document.querySelector('body');
 const img = document.querySelector('.visual img');
 const nickName = document.querySelector('.nickName');
-const audio = document.querySelector('.audio');
-const audioSource = document.querySelector('.audioSource');
-
 
 
 function setBgColor(colorA, colorB) {
@@ -30,8 +27,7 @@ function setNameText(name) {
 }
 
 function setAudio(name) {
-   audioSource.src = `./assets/audio/${name.toLowerCase()}.m4a`;
-   audio.load();
+   const audio = new AudioPlayer(`./../assets/audio/${name.toLowerCase()}.m4a`);
    audio.play();
 }
 
