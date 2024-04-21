@@ -73,5 +73,4 @@ nav.addEventListener('click', changePoster);
 ---
 <br>
 
-### 💻 Demo
-https://hyunkyu-song.github.io/Front_End_JavaScript/elemental_movie_poster/index.html
+### [💻 Demo](https://song0331.github.io/Front_End_JavaScript/elemental_movie_poster/index.html)
