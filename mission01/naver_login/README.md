@@ -98,5 +98,4 @@ login.addEventListener('click', () => {
 ---
 <br>
 
-### Demo💻
-https://hyunkyu-song.github.io/Front_End_JavaScript/naver_login/index.html
+### [💻 Demo](https://song0331.github.io/Front_End_JavaScript/naver_login/index.html)
